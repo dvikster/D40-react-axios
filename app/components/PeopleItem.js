@@ -14,6 +14,7 @@ export default class PeopleItem extends Component{
 
     render(){
         let users = this.props.peopleList;
+
         let visible = this.state.visible;
             return (
                 <div className={"item "+(visible ? 'none': '')} key={users.id}>
