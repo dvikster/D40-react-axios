@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Row, Col, Navbar, NavItem} from 'react-materialize';
+import {Row, Col, Navbar} from 'react-materialize';
 import { Link } from 'react-router';
 
 export default class MainContainer extends Component{
